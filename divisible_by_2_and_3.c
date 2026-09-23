@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int n;
+printf("Enter a number : ");
+scanf("%d",&n);
+if(n%2==0 || n%3==0)
+{
+printf("This number is divisible by 2 or 3");
+}
+else{
+printf("This number is  not divisible by 2 or 3");
+}
+return 0;
+}
